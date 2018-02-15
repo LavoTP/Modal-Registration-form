@@ -1,0 +1,21 @@
+{
+  "name": "modal-registration-form",
+  "version": "1.0.0",
+  "description": "Registration form Modal it is nice saves time and it's c\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[space and it's a modern thing. Please help me improve it and make it even better, a user supposed to register immediately when they see it or open it, this is my first repository \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b  2nd\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C please support me..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Modal registration form"
+  },
+  "keywords": [
+    "PHP",
+    "HTML5",
+    "CSS3",
+    "JavaScrypt"
+  ],
+  "author": "Topollo Raliqala",
+  "license": "ISC"
+}
