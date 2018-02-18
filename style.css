@@ -1,0 +1,220 @@
+body {
+    background-image: url("images/sss.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+head {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.intro h1 {
+    color: rgb(0, 0, 255);
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -2rem;
+}
+
+.intro h4 {
+    color: rgb(8, 185, 197);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    font-weight: 300;
+    font-size: 1rem;
+    color: azure;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    margin: 2rem;
+    height: 40px;
+    width: 10rem;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgba(0, 0, 255, 0.507);
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-image: url("images/oliver.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin: 13% auto 15% auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 50rem;
+    /*You can adjust the width or the to your liking**/
+    height: 45rem;
+}
+
+.modal-content fieldset {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 5px;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.modal-header {
+    background-color: rgba(0, 64, 255, 0.377);
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+legend {
+    color: blueviolet;
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+form .fields {
+    font-family: serif;
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+
+table td input {
+    margin: 0.5rem;
+    width: 21.8rem;
+    height: 1.8rem;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.609);
+}
+
+table td textarea {
+    height: 15rem;
+    width: 21.5rem;
+    border: 1px dotted blue;
+    border-radius: 3px;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.609);
+}
+
+table #move {
+    padding-left: 10px;
+}
+
+.button-submit {
+    font-weight: 300;
+    font-size: 1rem;
+    color: azure;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 10rem;
+    margin: 2rem auto 2rem auto;
+    margin-left: 13rem;
+}
+
+.button-submit:hover,
+.button-submit:focus {
+    background-color: rgba(0, 0, 255, 0.507);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+::-moz-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+::-o-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+::input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+:-webkit-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+:-moz-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+::-moz-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+:-ms-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.close-modal {
+    color: green;
+    font-size: 3rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: white;
+    cursor: pointer;
+}
+
+.animation {
+    animation: zoom 0.5s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
