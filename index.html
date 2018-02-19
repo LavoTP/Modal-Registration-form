@@ -21,8 +21,8 @@
     <button onclick="document.getElementById('register-modal').style.display='block'" id="modal-button" class="button">Sign up here!</button>
 
     <div id="register-modal" class="modal">
-        <span onclick="document.getElementById('register-modal').style.display='none'" class="close-modal">&times;</span>
         <form action="#" class="modal-content animation" method="POST">
+            <span onclick="document.getElementById('register-modal').style.display='none'" class="close-modal">&times;</span>
             <div class="modal-header">
                 <h2>Modal Box Contact form</h2>
             </div>
@@ -40,10 +40,10 @@
                         </tr>
                         <tr>
                             <td>
-                                <b>User Name:</b>
+                                <b>Last Name:</b>
                             </td>
                             <td>
-                                <input type="text" name="username" placeholder="Enter user name.." maxlength="40" required>
+                                <input type="text" name="username" placeholder="Enter last name.." maxlength="40" required>
                             </td>
                         </tr>
                         <tr>
@@ -63,7 +63,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td id="message">
                                 <b>Message:</b>
                             </td>
                             <td id="move">

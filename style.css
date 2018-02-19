@@ -71,16 +71,16 @@ head {
     background-image: url("images/oliver.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.712);
-    margin: 13% auto 15% auto;
+    margin: 0.5% auto 0% auto;
     border: 2px solid blue;
     border-radius: 5px;
-    width: 50rem;
+    width: 35rem;
     /*You can adjust the width or the to your liking**/
-    height: 45rem;
+    height: 43rem;
 }
 
 .modal-content fieldset {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1.5rem;
     background-color: rgba(0, 0, 0, 0.603);
     border-radius: 5px;
@@ -108,6 +108,7 @@ form .fields {
     font-family: serif;
     color: blueviolet;
     font-size: 1.2rem;
+    /* margin-left: 10px;*/
 }
 
 table td input {
@@ -196,8 +197,7 @@ table #move {
     color: green;
     font-size: 3rem;
     float: right;
-    margin-right: 5rem;
-    margin-top: 5rem;
+    margin-right: 0.5rem;
 }
 
 .close-modal:hover,
