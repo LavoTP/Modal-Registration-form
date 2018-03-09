@@ -79,6 +79,7 @@ head {
     height: 43rem;
 }
 
+/*if you want to move only the form use the margin-left to move it right and viser verser..*/
 .modal-content fieldset {
     margin-top: 1rem;
     margin-left: 1.5rem;
